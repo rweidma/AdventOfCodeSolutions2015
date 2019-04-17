@@ -1,6 +1,6 @@
 package app.NotQuiteLispExample;
 
-public class NotQuiteLispHardCode {
+public class NotQuiteLispWorker {
     /*
     * --- Day 1: Not Quite Lisp --- (2015)
 
@@ -35,11 +35,15 @@ To what floor do the instructions take Santa?*/
 
 
 
+    public int findRightFloorDefaultValue(){
+        return findRightFloorPassInValue(instructions);
+    }
 
 
-    String[] characters = instructions.split("");
-    public int findRightFloor(){
+    public int findRightFloorPassInValue(String inputInstructions){
         int floorNumber = 0;
+
+        String[] characters = inputInstructions.split("");
 
         for(String s: characters){
             if(s.equals("(")){
@@ -49,9 +53,12 @@ To what floor do the instructions take Santa?*/
                 floorNumber--;
             }
         }
-
         return floorNumber;
     }
 
+    //ToDo Input with maybe scanner?  Add a simple UI?  Identify path, not just final answer?  Make image?
+    // Do this with a char array?  Binary?  Read from File?  Upload or FTP file?  Use Sockets?
+    // Maybe Santa could use help with all of the children.  Should I add a queue of some sort for all of the different
+    // Sets of directions?....Just some thoughts to expand this for experience-->Web app, phone app?
 
 }

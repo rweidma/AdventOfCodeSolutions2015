@@ -1,17 +1,20 @@
 package app;
 
-import app.NotQuiteLispExample.NotQuiteLispHardCode;
+import app.NotQuiteLispExample.NotQuiteLispWorker;
 
 public class Main {
 
     public static void main(String [] args){
         System.out.println("Hello, World!");
 
-        NotQuiteLispHardCode hardCodeExample = new NotQuiteLispHardCode();
+        NotQuiteLispWorker nqlWorker = new NotQuiteLispWorker();
 
-        int floor = hardCodeExample.findRightFloor();
+        int floor = nqlWorker.findRightFloorDefaultValue();
 
-        System.out.println("Final floor " + floor);
+        System.out.println("Final floor from default instructions is Floor  " + floor);
+
+        floor = nqlWorker.findRightFloorPassInValue("()()())))))()()))((()()()(Dude these are terrible instructions()()");
+        System.out.println("Final floor from app input instructions is Floor  " + floor);
     }
 
 }
