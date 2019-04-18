@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4acbfde7-e2c2-400b-be52-857953c22187" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCodeSolutions2015/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventOfCodeSolutions2015/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventOfCodeSolutions2015/app/NotQuiteLispExample/NotQuiteLispHardCode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/NotQuiteLispExample/NotQuiteLispHardCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/NotQuiteLispExample/NotQuiteLispWorker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,13 +20,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="122" selection-start-line="15" selection-start-column="122" selection-end-line="15" selection-end-column="122" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/NotQuiteLispExample/NotQuiteLispWorker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -39,6 +38,15 @@
                 <element signature="e#1896#1897#0" expanded="true" />
                 <element signature="e#1958#1959#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/IWasToldThereWouldBeNoMath/NotNoMathWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -60,8 +68,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/app/NotQuiteLispExample/NotQuiteLisp.java" />
         <option value="$PROJECT_DIR$/src/app/NotQuiteLispExample/NotQuiteLispHardCode.java" />
-        <option value="$PROJECT_DIR$/src/app/Main.java" />
         <option value="$PROJECT_DIR$/src/app/NotQuiteLispExample/NotQuiteLispWorker.java" />
+        <option value="$PROJECT_DIR$/src/app/Main.java" />
+        <option value="$PROJECT_DIR$/src/app/IWasToldThereWouldBeNoMath/NotNoMathWorker.java" />
       </list>
     </option>
   </component>
@@ -193,13 +202,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="122" selection-start-line="15" selection-start-column="122" selection-end-line="15" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/NotQuiteLispExample/NotQuiteLispWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -208,6 +210,23 @@
             <element signature="e#1896#1897#0" expanded="true" />
             <element signature="e#1958#1959#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/IWasToldThereWouldBeNoMath/NotNoMathWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>

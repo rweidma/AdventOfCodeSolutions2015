@@ -1,5 +1,6 @@
 package app;
 
+import app.IWasToldThereWouldBeNoMath.NotNoMathWorker;
 import app.NotQuiteLispExample.NotQuiteLispWorker;
 
 public class Main {
@@ -15,6 +16,9 @@ public class Main {
 
         floor = nqlWorker.findRightFloorPassInValue("()()())))))()()))((()()()(Dude these are terrible instructions()()");
         System.out.println("Final floor from app input instructions is Floor  " + floor);
+
+        NotNoMathWorker nmWorker = new NotNoMathWorker();
+        System.out.println(nmWorker.figureOutHowMuch(1,2,3));
     }
 
 }
