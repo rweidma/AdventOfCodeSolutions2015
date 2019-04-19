@@ -16,14 +16,14 @@ public class NotNoMathWorker {
         //find largest length and return multiplication of other 2 (smaller)  if 0, then either number would work,
         // so arbitrary is ok.
 
-        if(((2 * l) -h - w ) > 0){
+        if(((2 * l) -h - w ) > 0){ // L is larger than both
             smallestSide = h * w;
         }
-        else if (((2 * h) - l - w) > 0){
+        else if (((2 * h) - l - w) > 0){ // H is larger than both
             smallestSide = l * w;
         }
 
-        else if (((2 * w) - l - h) > 0){
+        else { // Either W is larger than both or they are all the same, either way, l* h will be correct in this case
             smallestSide = l * h;
         }
 
@@ -33,7 +33,7 @@ public class NotNoMathWorker {
 
     public int calculateSurfaceArea(int w, int h, int l){
         int surfaceArea = 0;
-        surfaceArea = (2*w*h*l);
+        surfaceArea = (2*((w*h) + (w*l) + (h * l)));
         return surfaceArea;
     }
 
